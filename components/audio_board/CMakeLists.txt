@@ -4,6 +4,14 @@ set(COMPONENT_ADD_INCLUDEDIRS ./include)
 set(COMPONENT_REQUIRES )
 set(COMPONENT_PRIV_REQUIRES esp_peripherals audio_sal audio_hal esp_dispatcher display_service)
 
+if (CONFIG_AUDIO_BOARD_CUSTOM)
+message(STATUS "Current board name is " CONFIG_AUDIO_BOARD_CUSTOM)
+list(APPEND COMPONENT_ADD_INCLUDEDIRS ./blank_board)
+set(COMPONENT_SRCS
+./blank_board/board.c
+./blank_board/board_pins_config.c
+)
+endif()
 
 if (CONFIG_ESP_LYRAT_V4_2_BOARD)
 message(STATUS "Current board name is " CONFIG_ESP_LYRAT_V4_2_BOARD)
