@@ -17,7 +17,7 @@ The Digital Living Network Alliance (DLNA) aims to establish the interoperabilit
 
 This example runs on the boards that are marked with a green checkbox in the table below. Please remember to select the board in menuconfig as discussed in Section [Configuration](#configuration) below.
 
-| Board Name | Getting Started | Chip | Compatible |
+| Board Name | Getting Started | Chip | Compatibility |
 |-------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------:|:-----------------------------------------------------------------:|
 | ESP32-LyraT | [![alt text](../../../docs/_static/esp32-lyrat-v4.3-side-small.jpg "ESP32-LyraT")](https://docs.espressif.com/projects/esp-adf/en/latest/get-started/get-started-esp32-lyrat.html) | <img src="../../../docs/_static/ESP32.svg" height="85" alt="ESP32"> | ![alt text](../../../docs/_static/yes-button.png "Compatible") |
 | ESP32-LyraTD-MSC | [![alt text](../../../docs/_static/esp32-lyratd-msc-v2.2-small.jpg "ESP32-LyraTD-MSC")](https://docs.espressif.com/projects/esp-adf/en/latest/get-started/get-started-esp32-lyratd-msc.html) | <img src="../../../docs/_static/ESP32.svg" height="85" alt="ESP32"> | ![alt text](../../../docs/_static/yes-button.png "Compatible") |
@@ -233,7 +233,7 @@ I (40346) ESP_DECODER: Detect audio type is M4A
 I (40346) CODEC_ELEMENT_HELPER: The element is 0x3f8125dc. The reserve data 2 is 0x0.
 I (40356) AAC_DECODER: a new song playing
 I (40696) ESP_AUDIO_TASK: Recv Element[DEC_auto-0x3f8125dc] MSG,type:20000,cmd:8,len:4,status:AEL_STATUS_STATE_RUNNING
-I (40706) ESP_AUDIO_TASK: Received muisc info then on play
+I (40706) ESP_AUDIO_TASK: Received music info then on play
 I (40706) ESP_AUDIO_TASK: On event play, status:UNKNOWN, 0
 I (40716) I2S_STREAM: AUDIO_STREAM_WRITER
 I (40716) AUDIO_FORGE: audio_forge opened
@@ -412,7 +412,7 @@ I (40346) ESP_DECODER: Detect audio type is M4A
 I (40346) CODEC_ELEMENT_HELPER: The element is 0x3f8125dc. The reserve data 2 is 0x0.
 I (40356) AAC_DECODER: a new song playing
 I (40696) ESP_AUDIO_TASK: Recv Element[DEC_auto-0x3f8125dc] MSG,type:20000,cmd:8,len:4,status:AEL_STATUS_STATE_RUNNING
-I (40706) ESP_AUDIO_TASK: Received muisc info then on play
+I (40706) ESP_AUDIO_TASK: Received music info then on play
 I (40706) ESP_AUDIO_TASK: On event play, status:UNKNOWN, 0
 I (40716) I2S_STREAM: AUDIO_STREAM_WRITER
 I (40716) AUDIO_FORGE: audio_forge opened

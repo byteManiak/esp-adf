@@ -15,7 +15,7 @@ This example shows how to use the ADF ESP dispatcher API to connect to DuerOS as
 
 This example runs on the boards that are marked with a green checkbox in the table below. Please remember to select the board in menuconfig as discussed in Section [Configuration](#configuration) below.
 
-| Board Name | Getting Started | Chip | Compatible |
+| Board Name | Getting Started | Chip | Compatibility |
 |-------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------:|:-----------------------------------------------------------------:|
 | ESP32-LyraT | [![alt text](../../../docs/_static/esp32-lyrat-v4.3-side-small.jpg "ESP32-LyraT")](https://docs.espressif.com/projects/esp-adf/en/latest/get-started/get-started-esp32-lyrat.html) | <img src="../../../docs/_static/ESP32.svg" height="85" alt="ESP32"> | ![alt text](../../../docs/_static/yes-button.png "Compatible") |
 | ESP32-LyraTD-MSC | [![alt text](../../../docs/_static/esp32-lyratd-msc-v2.2-small.jpg "ESP32-LyraTD-MSC")](https://docs.espressif.com/projects/esp-adf/en/latest/get-started/get-started-esp32-lyratd-msc.html) | <img src="../../../docs/_static/ESP32.svg" height="85" alt="ESP32"> | ![alt text](../../../docs/_static/yes-button.png "Compatible") |
@@ -376,7 +376,7 @@ I (849018) ESP_AUDIO_TASK: Blocking play until received AEL_MSG_CMD_REPORT_MUSIC
 I (851947) HTTP_STREAM: total_bytes=0
 I (851948) ESP_AUDIO_TASK: Recv Element[IN_http-0x3f81dfb8] MSG,type:20000,cmd:8,len:4,status:AEL_STATUS_STATE_RUNNING
 I (858808) ESP_AUDIO_TASK: Recv Element[DEC_mp3-0x3f81ea18] MSG,type:20000,cmd:8,len:4,status:AEL_STATUS_STATE_RUNNING
-I (858811) ESP_AUDIO_TASK: Received muisc info then on play
+I (858811) ESP_AUDIO_TASK: Received music info then on play
 I (858815) ESP_AUDIO_TASK: On event play, status:UNKNOWN, 0
 I (858822) AUDIO_ELEMENT: [Audio_forge-0x3f826c00] Element task created
 I (858829) AUDIO_ELEMENT: [Audio_forge] AEL_MSG_CMD_RESUME,state:1
@@ -750,7 +750,7 @@ I (849018) ESP_AUDIO_TASK: Blocking play until received AEL_MSG_CMD_REPORT_MUSIC
 I (851947) HTTP_STREAM: total_bytes=0
 I (851948) ESP_AUDIO_TASK: Recv Element[IN_http-0x3f81dfb8] MSG,type:20000,cmd:8,len:4,status:AEL_STATUS_STATE_RUNNING
 I (858808) ESP_AUDIO_TASK: Recv Element[DEC_mp3-0x3f81ea18] MSG,type:20000,cmd:8,len:4,status:AEL_STATUS_STATE_RUNNING
-I (858811) ESP_AUDIO_TASK: Received muisc info then on play
+I (858811) ESP_AUDIO_TASK: Received music info then on play
 I (858815) ESP_AUDIO_TASK: On event play, status:UNKNOWN, 0
 I (858822) AUDIO_ELEMENT: [Audio_forge-0x3f826c00] Element task created
 I (858829) AUDIO_ELEMENT: [Audio_forge] AEL_MSG_CMD_RESUME,state:1
